@@ -18,5 +18,6 @@ zaehle() {
   for(let i=0; i<=this.Ende;i=i+1 ) {
     this.list.push(i);
   }
+  this.list.pop
 }
 }
