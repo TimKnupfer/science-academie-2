@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListenComponent implements OnInit {
 
-  constructor() { }
-Ende: number= 10;
+list: Array<number>= [1, 2]
+ Ende: number= 10;
+
+constructor() { }
   ngOnInit() {
   }
-
+zaehle() {
+  this.list=[];
+  for(let i=0; i<=this.Ende;i=i++ ) {
+    this.list.push(i)
+  }
+}
 }
