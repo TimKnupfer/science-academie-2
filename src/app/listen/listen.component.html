@@ -8,7 +8,9 @@ zähle bis <input type="number" name="Ende"
 <button type="button" class="btn btn-primary" 
 (click)="zaehle()">Start</button>
 </form>
-       {{list}}
+      <ul *ngFor="let Zahl of list">
+        <li>{{Zahl}}</li>
+      </ul>
      </div>
    </div>
 </div>

@@ -15,8 +15,8 @@ constructor() { }
   }
 zaehle() {
   this.list=[];
-  for(let i=0; i<=this.Ende;i=i++ ) {
-    this.list.push(i)
+  for(let i=0; i<=this.Ende;i=i+1 ) {
+    this.list.push(i);
   }
 }
 }
